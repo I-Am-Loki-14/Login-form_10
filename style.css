@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:url(./pexels-pixabay-158827.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    width: 450px;
+    height: auto;
+    padding: 20px 25px;
+    border: 1px solid #8080801c;
+    border-radius: 7px;
+    backdrop-filter: blur(4px);
+    box-shadow: inset 0 0 10px #fff;
+}
+form h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Moderustic", system-ui;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.input_class input{
+ width: 100%;
+ padding: 15px 10px;
+ border: none;
+ outline-color: #5391A4;
+ margin: 20px 0;
+ border-radius: 5px;
+}
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+
+    font-family: "Moderustic", system-ui;
+
+}
+.check_box{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Moderustic", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 17px 0;
+    align-items: center;
+
+}
+
+.login{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover{
+    background-color:#40b1d7 ;
+    transition: 0.3s;
+}
+input[type="submit"]{
+    width: 100%;
+    border-radius: 12px;
+    padding: 12px 35px;
+    font-family: "Moderustic", system-ui;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5290A5;
+    border: 1px solid gray;
+    margin: 12px 0;
+
+}
+span{
+    color: blue;
+    font-family: "Moderustic", system-ui;
+    font-weight: 1.2rem;
+}
+span:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.register{
+    font-family: "Moderustic", system-ui;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+}
